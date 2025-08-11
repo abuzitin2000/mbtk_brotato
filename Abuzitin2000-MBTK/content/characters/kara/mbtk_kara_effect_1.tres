@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://mods-unpacked/Abuzitin2000-MBTK/content/effects/mbtk_dragon_punch_effect.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+key = "mbtk_dragon_punch"
+text_key = ""
+value = 0
+custom_key = ""
+storage_method = 0
+effect_sign = 3
+custom_args = [  ]

@@ -1,0 +1,41 @@
+{
+	"name": "MBTK",
+	"namespace": "Abuzitin2000",
+	"version_number": "0.0.1",
+	"description": "Mod that adds my friends from the discord server MBTK into Brotato as characters.",
+	"website_url": "https://github.com/exampleauthor/examplemod",
+	"dependencies": [
+		"Darkly77-ContentLoader"
+	],
+	"extra": {
+		"godot": {
+			"authors": [
+				"Abuzitin2000"
+			],
+			"optional_dependencies": [
+
+			],
+			"compatible_game_version": [
+				"0.0.1"
+			],
+			"compatible_mod_loader_version": [
+				"6.1.0"
+			],
+			"incompatibilities": [
+
+			],
+			"load_before": [
+
+			],
+			"tags": [
+				"Characters",
+				"Weapons"
+			],
+			"config_schema": {
+
+			},
+			"description_rich": "",
+			"image": null
+		}
+	}
+}

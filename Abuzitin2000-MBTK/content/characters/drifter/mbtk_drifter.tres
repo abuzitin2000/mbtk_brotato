@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://items/characters/character_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/Abuzitin2000-MBTK/content/characters/8bithero/appearances/mbtk_8bit_icon.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "character_drifter"
+unlocked_by_default = true
+icon = ExtResource( 2 )
+name = "Drifter"
+tier = 0
+value = 1
+effects = [  ]
+tracking_text = ""
+is_lockable = true
+is_cursed = false
+curse_factor = 0.0
+max_nb = -1
+item_appearances = [  ]
+tags = [  ]
+wanted_tags = [  ]
+banned_item_groups = [  ]
+banned_items = [  ]
+starting_weapons = [  ]
