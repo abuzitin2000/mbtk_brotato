@@ -16,7 +16,7 @@ func _ready():
 	# Setup Hitbox Properties
 	_hitbox.damage = damage
 	_hitbox.crit_damage = 2
-	_hitbox.crit_chance = RunData.get_stat("stat_crit_chance", _player_index)
+	_hitbox.crit_chance = RunData.get_stat("stat_crit_chance", _player_index) / 100
 	_hitbox.knockback_direction = _knockback_direction
 	_hitbox.knockback_amount = 40
 	_hitbox.from = self

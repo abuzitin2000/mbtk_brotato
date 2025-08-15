@@ -1,12 +1,13 @@
-[gd_resource type="Resource" load_steps=4 format=2]
+[gd_resource type="Resource" load_steps=5 format=2]
 
 [ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/Abuzitin2000-MBTK/content/characters/8bithero/mbtk_8bithero.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/Abuzitin2000-MBTK/content/characters/kara/mbtk_kara.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/Abuzitin2000-MBTK/content/characters/drifter/mbtk_drifter.tres" type="Resource" id=4]
 
 [resource]
 script = ExtResource( 1 )
-characters = [ ExtResource( 2 ), ExtResource( 3 ) ]
+characters = [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ) ]
 items = [  ]
 weapons = [  ]
 weapons_characters = [  ]
